@@ -1,0 +1,11 @@
+2019-09-26 15:38:14.598 MDT [6237] LOG:  listening on IPv6 address "::1", port 5432
+2019-09-26 15:38:14.599 MDT [6237] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-09-26 15:38:14.600 MDT [6237] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-09-26 15:38:14.618 MDT [6238] LOG:  database system was shut down at 2019-09-26 15:36:30 MDT
+2019-09-26 15:38:14.624 MDT [6237] LOG:  database system is ready to accept connections
+2019-09-26 19:19:06.467 MDT [7396] ERROR:  relation "students" already exists
+2019-09-26 19:19:06.467 MDT [7396] STATEMENT:  CREATE TABLE students (id serial PRIMARY KEY, name varchar, favorite_food varchar);
+2019-09-26 21:22:15.569 MDT [6237] LOG:  received smart shutdown request
+2019-09-26 21:22:15.570 MDT [6237] LOG:  background worker "logical replication launcher" (PID 6244) exited with exit code 1
+2019-09-26 21:22:15.570 MDT [6239] LOG:  shutting down
+2019-09-26 21:22:16.080 MDT [6237] LOG:  database system is shut down
