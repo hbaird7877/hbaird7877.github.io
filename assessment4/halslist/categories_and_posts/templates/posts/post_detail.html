@@ -1,0 +1,15 @@
+
+<div>
+    <h2>{{post.poster_name}}</h2>
+    <p>Member of {{category.category_name}}</p>
+    
+    <br>
+    <br>
+    <a href="{% url 'edit_post' category_id=category.id post_id=post.id%}"> Edit Post</a>
+    <br>
+    <br>
+    <form name="delete_category" method="POST" action="{% url 'delete_post' category_id=category.id post_id=post.id %}">
+      {% csrf_token %}
+      <input type="submit" value="Delete post" />
+    </form>
+  </div>
